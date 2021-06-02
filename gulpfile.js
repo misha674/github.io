@@ -15,7 +15,7 @@ gulp.task('browser-sync', function () {
 gulp.task('pug', function () {
     return gulp.src('src/pug/*.pug')
         .pipe(glp.pug({
-            pretty: true
+            pretty: false
         }))
         .pipe(gulp.dest('build'))
         .on('end', browserSync.reload);
