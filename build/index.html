@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Air Slate Test</title>
+  <link type="image/x-icon" rel="shortcut icon" href="favicon.ico">
+  <link rel="stylesheet" href="static/css/style.css">
+  <body> 
+    <div class="container"><img class="logo" src="static/img/logo.svg">
+      <section class="form-wrapper">
+        <form class="main-form" id="main-form" method="POST">
+          <div class="main-form__title">Log in to airSlate</div>
+                  <label class="main-form__label">Email address</label>
+                  <input class="main-form__input" type="email" name="email" placeholder="name@email.com" data-validate-field="email" autocomplete="on">
+                  <div class="js-validate-error-label"></div>
+                  <label class="main-form__label">Password</label>
+                  <input class="main-form__input" type="password" name="password" placeholder="Enter password" data-validate-field="password" autocomplete="on">
+                  <div class="js-validate-error-label"></div>
+          <div class="main-form__privacy-policy">By clicking Log in, you agree to the <a href="/">Terms of Services</a> 
+            and <a href="/">Privacy Policy</a>, including receipt of emails from of us about our service.
+          </div>
+          <input class="main-form__submit-btn" type="submit" value="Log in">
+          <div class="main-form__autoLogin-block autoLogin">
+            <div class="autoLogin__description"> <span>or continue with your social accounts</span></div><a class="autoLogin__link" href="/"><img src="static/img/icons/Facebook-login.svg">Facebook</a><a class="autoLogin__link" href="/"><img src="static/img/icons/Google-login.svg">Google</a><a class="autoLogin__link" href="/"><img src="static/img/icons/Apple-login.svg">Apple</a>
+          </div>
+        </form>
+      </section>
+    </div>
+  </body>
+  <footer></footer>
+  <script src="static/js/just-validate.js?v=1.0.0"></script>
+  <script src="static/js/main.js"></script>
+</head>

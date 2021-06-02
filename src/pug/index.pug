@@ -1,0 +1,10 @@
+extends layout/main
+
+block vars
+    - let siteTitle = 'Air Slate Test';
+    - let lang = 'en';
+
+block content
+    .container
+        img(src='static/img/logo.svg').logo
+        include sections/form-wrapper
