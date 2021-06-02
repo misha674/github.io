@@ -335,7 +335,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
         this.options = options || {};
         this.rules = this.options.rules || {};
         this.messages = this.options.messages || undefined;
-        this.colorWrong = this.options.colorWrong || '#B81111';
+        this.colorWrong = this.options.colorWrong || '#E15554';
         this.result = {};
         this.elements = [];
         this.tooltip = this.options.tooltip || {};
